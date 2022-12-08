@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+
+.purple-color {
+    color: #39254D;
+}
+
+.home {
+    position: relative;
+    height: 60rem;
+    background-image: url(../img/huna-bg.jpg);
+    background-size: cover;
+    z-index: 0;
+}
+
+.img-desc {
+background-color: #39254D;
+}
