@@ -12,6 +12,22 @@ html {
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
+    position: relative;
+}
+
+[id] {
+    scroll-margin-top: 95px;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #d63384;
 }
 
 .hero-shadow {
