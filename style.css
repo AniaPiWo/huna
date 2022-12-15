@@ -30,6 +30,10 @@ a:hover {
     color: #d63384;
 }
 
+.nav-link:hover {
+    color: #d63384;
+}
+
 .hero-shadow {
     position: absolute;
     top: 0;
